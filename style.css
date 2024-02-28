@@ -1,0 +1,382 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
+    scroll-padding-top: 72.5px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.nav_content {
+    margin: 21px 55px;
+}
+
+
+/*--------------Header------------*/
+
+header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #141045;
+    z-index: 1000;
+    position: fixed;
+    align-items: center;
+    padding: 10px 60px;
+    top: 0;
+}
+/*--------------The Logo------------*/
+.logo a{
+    font-size: 28px;
+    text-shadow: 2px 2px 2px #6f68d8;
+    color: #FFFFFF;
+    font-family: "Pacifico", cursive;
+    transition: 1s;
+}
+
+.logo a:hover {
+    color: #9c97f9;
+    font-size: 28.2px;
+}
+/*----------------BAR----------------*/
+.bar a{
+    font-size: 17px;
+    color: #FFFFFF;
+    padding-left: 10px;
+    transition: 0.5;
+}
+
+.bar a.sec:hover {
+    color: #b8b4fb;
+    font-weight: bold;
+}
+/*--------------BAR BUTTON-------------*/
+.bar button{
+    border: none;
+    border-radius: 5px; 
+    height: 30px;
+    margin-left: 27px;
+    font-size: 17px;
+    font-weight: bold;
+    background-color: #ccc;
+    box-shadow: 2px 2px 2px #6f68d8;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.bar button a{
+    color: #141045ef;
+    padding: 10px;
+}
+
+.bar button:hover{
+    background-color: #a39ee9de;
+    box-shadow: 2px 2px 2px #ccc;
+    transform: scale(1.05);
+}
+
+
+
+/*------------WELCOME & ABOUT-----------*/
+
+.Welcome {
+    background: url('images/background.png') center/cover no-repeat;
+    text-align: center;
+    color: #f3efef;
+    padding: 90px;
+    margin-top: 70px;
+    border-radius: 15px;
+}
+  
+.sectioncontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1200px;
+}
+  
+.content {
+    width: 700px;
+}
+  
+.hello{
+    font-size: 35px;
+    font-style: italic;
+    padding-bottom: 10px;
+}
+
+.title{
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+span{
+    color: #b8b4fb;
+}
+
+.description{
+    font-size: 15.7px;
+}
+/*-------ACTION BUTTONS------*/
+.action_btns {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.action_btns button {
+    padding:10px;
+    margin-left: 15px;
+    font-size: 15px;
+    background-color: #1c1946;
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.action_btns button a{
+    color: #FFFFFF;
+}
+
+.action_btns button:hover {
+    background-color: #b8b4fb ;
+    box-shadow: 1.5px 1.5px 1.5px #6f68d8;
+    transform: scale(1.05);
+}
+
+.action_btns button a:hover {
+    color: #141045;
+    font-weight: bold;
+}
+/*-----------SOCIAL MEDIA----------*/
+.socialmedia{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.socialmedia a i{
+    padding-left: 20px;
+    font-size: larger;
+    color: #b8b4fb;
+    transition: 0.8s;
+}
+
+.socialmedia a i:hover{
+    transform: scale(1.2);
+}
+
+
+
+/*------------MY SKILLS----------*/
+
+.skills{
+    background-color: #1c1946;
+    border-radius: 10px;
+    border: 0.5 solid;
+    border-style: double;
+    border-color: #6f68d8;
+    padding: 20px 20px;
+    margin-top: 35px;
+}
+/*-----------Summary-----------*/
+.summary{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.subtitle{
+    color: #9c97f9;
+    padding-bottom: 15px;
+
+}
+
+.about{
+    color: #f3efefd6;
+    font-size: 15px;
+    padding-bottom: 30px;
+}
+/*----------MY SKILLS----------*/
+.myskills{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.box{
+    background-color: #f3efefc9;
+    padding: 20px;
+    margin: 14px;
+    border-radius: 25px;
+    border: 1.7px solid #9c97f9;
+    cursor: pointer;
+    transition: 0.7s;
+}
+
+.box:hover{
+    transform: scale(1.05);
+    box-shadow: 3px 3px 3px #9c97f9;
+}
+
+.box i{
+    padding-bottom: 12px;
+    font-size: 22px;
+    color: #8c85e8;
+
+}
+
+.box h3{
+    color: #141045;
+    padding-bottom: 5px;
+}
+
+.box p{
+    color: #1c1946;
+}
+
+
+/*-----------OUR PORTFOLIO----------*/
+
+.portfolio{
+    background-color: #1c1946;
+    border-radius: 10px;
+    padding: 25px 25px;
+    margin-top: 35px;
+    border: 0.5 solid;
+    border-style: double;
+    border-color: #6f68d8;
+}
+
+.projects{
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.photo img{
+    width: 350px;
+    background-color: #f3efefc9;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 50px;
+    border: 1.5px solid #9c97f9;
+    cursor: pointer;
+}
+
+.photo{
+    transition: 0.5s;
+}
+
+.photo:hover{
+    transform: scale(1.05);
+    opacity: 0.5;
+    box-shadow: 0px 2px 0px #9c97f9;
+}
+
+.deatails h3{
+    color: #9c97f9;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    font-size: 18px;
+}
+
+.project p{
+    color: #f3efefd6;
+    font-size: 13px;
+}
+
+
+
+/*-----------CONTACT FORM----------*/
+
+.contact_us{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 35px auto;
+    margin-bottom: 25px;
+    max-width: 800px;
+    width: 70%;
+    background-color: #ffffffe0;
+    padding: 17px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.summary2 p{
+    color: #1c1946;
+}
+
+.summary2 h2{
+    text-align: center;
+    color: #6f68d8;
+}
+
+.form-input {
+    margin-bottom: 15px;
+}
+
+.form-input input {
+    width: 500px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-input textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-input button {
+    background-color: #6f68d8;
+    color: #fff;
+    align-items: center;
+    padding: 10px 14px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.6s;
+}
+
+.form-input button:hover{
+    box-shadow: 2px 2px 2px #322e71;
+    transform: scale(1.04);
+}
+
+
+/*---------FOOTER---------*/
+
+footer{
+    text-align: center;
+    background-color: #b6b3e0c8;
+}
+
+footer .icons{
+    font-size: 20px;
+    padding-top: 5px;
+}
+
+.icons i{
+    transition: 0.6s;
+    padding-right: 3px;
+}
+
+.icons i:hover{
+    transform: scale(1.2);
+}
+
+  
+   
